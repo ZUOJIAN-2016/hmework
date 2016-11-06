@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+<link rel="stylesheet" type="text/css"href="Display.css">
+<title>老司gay的blog</title>
+<script>
+function Change_To_Day()
+{
+    document.getElementById('Menu-Top').style.background='white';
+	document.getElementById('header').style.background='white';
+	document.getElementById('menu-left').style.background='pink';
+	document.getElementById('menu-right').style.background='pink';
+}
+function Change_To_Night()
+{
+ document.getElementById('Menu-Top').style.background='#FFAA33';
+	document.getElementById('header').style.background='#0000FF';
+	document.getElementById('menu-left').style.background='#5555FF';
+	document.getElementById('menu-right').style.background='#5555FF';
+}
+</script>
+</head>
+<body>
+
+<div id="container"style="width:1000px;height:1000px">
+    <div id="header"style="background-color:#0000FF">
+        <h1 >老司gay的blog</h1>
+		<p onclick="Change_To_Day()">切换日间模式</p> 
+		<p onclick="Change_To_Night()">切换夜间模式</p>
+    </div>
+    <div id="Menu-Top">
+        <h2 >文章导航：  <p1 onclick="this.innerHTML='其实什么也没有hhh'">点击这里看开车</p1></h2>
+</div>
+    <div align=center id="Content">
+	
+    <div id="menu-left">
+        <h2>侧边导航：文章关键字分类</h2>
+        <h3>开车<br></h3>
+        <h3>高速<br></h3>
+        <h3>身体被掏空</h3>
+    </div>
+     <div id="menu-right">
+        <h3>博主信息：</h3>
+        <div id="photo"style="width:50px;height:50px;">
+        
+		</div>
+		</div>
+	<div align=center id="Content_1"> <p>啊啊，不知道写什么好</p></div>
+   
+
+
+
+
+</body>
+</html>
